@@ -1,0 +1,57 @@
+.addstudent{
+    height: 100vh;
+    margin: 20px 300px 20px 300px;
+    background-color: rgb(194, 252, 233);
+    padding: 20px 100px 20px 100px;
+    border-radius: 18px;
+}
+.fullbody{
+
+background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1YmJsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+background-size: cover;
+
+}
+.title{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    background-color: rgb(103, 103, 235);
+    color: aliceblue;
+    border-radius: 0 40px 0 40px;
+
+
+}
+.alain{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 10px;
+    font-weight: 700;
+    color: black;
+  }
+  .inputval{
+      width: 400px;
+      height: 28px;
+      padding-left: 15px;
+      margin: 10px ;
+      font-size: 15px;
+      font-weight: 600;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 10px;
+  }
+  .submit-btn{
+      margin: 10px;
+      padding: 8px 12px;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      background-color: rgb(101, 248, 170);
+      cursor: pointer;
+  }
